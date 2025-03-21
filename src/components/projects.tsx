@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <div>
             <h2 className="text-2xl font-bold underline mb-4">Projetos</h2>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
                 <Project
                     image="acharge"
                     link="https://www.chargemkt.com/"
