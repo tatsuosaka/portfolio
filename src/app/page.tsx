@@ -7,6 +7,7 @@ export default function Home() {
         <main className="flex items-center flex-col justify-center">
             <Navbar />
             <Article />
+
             <p className="p-6 select-none">© Matheus Tatsuo Saka</p>
         </main>
     );
