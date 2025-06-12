@@ -5,39 +5,6 @@ export default function Projects() {
     return (
         <div>
             <h2 className="text-2xl font-bold underline mb-4">Projetos</h2>
-            <h4 className="text-xl font-bold  mb-4">Sites</h4>
-            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 mb-4">
-                <Project
-                    image="acharge"
-                    link="https://www.chargemkt.com/"
-                    project="A Charge Digital"
-                />
-                <Project
-                    image="carnivoros-mind"
-                    link="https://carnivorosmind.com.br/"
-                    project="Carnívoros Mind"
-                />
-                <Project
-                    image="codinginvest-blog"
-                    link="https://blog.codinginvest.com.br/"
-                    project="Coding Invest Blog"
-                />
-                <Project
-                    image="codinginvest-institucional"
-                    link="https://www.codinginvest.com.br/"
-                    project="Coding Invest Institucional"
-                />
-                <Project
-                    image="youtube-clone"
-                    link="https://youtube-clone-beta-orpin.vercel.app/"
-                    project="Youtube Clone"
-                />
-                <Project
-                    image="hiragana"
-                    link="https://tatsuosaka.github.io/hiragana/"
-                    project="Jogo Hiragana"
-                />
-            </div>
             <h4 className="text-xl font-bold  mb-4">Vídeos</h4>
             <div className="grid sm:grid-cols-4 grid-cols-2 gap-4">
                 <Video
@@ -79,6 +46,39 @@ export default function Projects() {
                     link="https://www.instagram.com/botecotijuca/"
                     videosrc="/videos/Esquenta.mp4"
                     video="Boteco Tijuca - Esquenta"
+                />
+            </div>
+            <h4 className="text-xl font-bold  mb-4">Sites</h4>
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 mb-4">
+                <Project
+                    image="acharge"
+                    link="https://www.chargemkt.com/"
+                    project="A Charge Digital"
+                />
+                <Project
+                    image="carnivoros-mind"
+                    link="https://carnivorosmind.com.br/"
+                    project="Carnívoros Mind"
+                />
+                <Project
+                    image="codinginvest-blog"
+                    link="https://blog.codinginvest.com.br/"
+                    project="Coding Invest Blog"
+                />
+                <Project
+                    image="codinginvest-institucional"
+                    link="https://www.codinginvest.com.br/"
+                    project="Coding Invest Institucional"
+                />
+                <Project
+                    image="youtube-clone"
+                    link="https://youtube-clone-beta-orpin.vercel.app/"
+                    project="Youtube Clone"
+                />
+                <Project
+                    image="hiragana"
+                    link="https://tatsuosaka.github.io/hiragana/"
+                    project="Jogo Hiragana"
                 />
             </div>
         </div>
