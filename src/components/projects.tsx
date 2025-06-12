@@ -6,7 +6,7 @@ export default function Projects() {
         <div>
             <h2 className="text-2xl font-bold underline mb-4">Projetos</h2>
             <h4 className="text-xl font-bold  mb-4">Vídeos</h4>
-            <div className="grid sm:grid-cols-4 grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-4 grid-cols-2 gap-4 mb-4">
                 <Video
                     link="https://www.instagram.com/p/DI9KxcDOf9L/"
                     videosrc="/videos/p1.mp4"
@@ -49,7 +49,7 @@ export default function Projects() {
                 />
             </div>
             <h4 className="text-xl font-bold  mb-4">Sites</h4>
-            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 mb-4">
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 ">
                 <Project
                     image="acharge"
                     link="https://www.chargemkt.com/"
