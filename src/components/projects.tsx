@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Project from "./project";
 import Video from "./video";
 
@@ -6,7 +7,7 @@ export default function Projects() {
         <div>
             <h2 className="text-2xl font-bold underline mb-4">Projetos</h2>
             <h4 className="text-xl font-bold  mb-4">Vídeos</h4>
-            <div className="grid sm:grid-cols-4 grid-cols-2 gap-4 mb-4">
+            <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
                 <Video
                     link="https://www.instagram.com/p/DI9KxcDOf9L/"
                     videosrc="/videos/p1.mp4"
@@ -48,7 +49,14 @@ export default function Projects() {
                     video="Boteco Tijuca - Esquenta"
                 />
             </div>
-            <h4 className="text-xl font-bold  mb-4">Sites</h4>
+
+            <Link
+                href={"/videos"}
+                className="bg-zinc-900/40 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:text-amber-300 transition-all duration-300"
+            >
+                Veja Mais
+            </Link>
+            <h4 className="text-xl font-bold  mb-4 mt-4">Sites</h4>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 ">
                 <Project
                     image="acharge"
