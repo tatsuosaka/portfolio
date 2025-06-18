@@ -5,18 +5,20 @@ import Video from "./video";
 export default function Projects() {
     return (
         <div>
-            <h2 className="text-2xl font-bold underline mb-4">Projetos</h2>
-            <h4 className="text-xl font-bold  mb-4">Vídeos</h4>
+            <h2 className="text-2xl font-bold underline mb-4">Projects</h2>
+            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2">
+                Videos
+            </h2>
             <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
                 <Video
                     link="https://www.instagram.com/p/DI9KxcDOf9L/"
                     videosrc="/videos/p1.mp4"
-                    video="Boteco Tijuca - Promoção"
+                    video="Boteco Tijuca - Promotion"
                 />
                 <Video
                     link="https://www.instagram.com/p/DCpDq13OWED/"
                     videosrc="/videos/p2.mp4"
-                    video="Azumy - Nutricionista"
+                    video="Azumy - Nutritionist"
                 />
                 <Video
                     link="https://www.instagram.com/reel/DCUdYIau4WD/"
@@ -26,12 +28,12 @@ export default function Projects() {
                 <Video
                     link="https://www.instagram.com/p/DJriUHNO6PW/"
                     videosrc="/videos/p4.mp4"
-                    video="Carnívoros Mind - Promoção"
+                    video="Carnívoros Mind - Promotion"
                 />
                 <Video
                     link="https://www.instagram.com/p/DJW5OceOqst/"
                     videosrc="/videos/p5.mp4"
-                    video="Carnívoros Mind - Lanche do mês"
+                    video="Carnívoros Mind - Burger of the Month"
                 />
                 <Video
                     link="https://www.instagram.com/reel/DIM1SnjSzhd/"
@@ -46,17 +48,19 @@ export default function Projects() {
                 <Video
                     link="https://www.instagram.com/botecotijuca/"
                     videosrc="/videos/Esquenta.mp4"
-                    video="Boteco Tijuca - Esquenta"
+                    video="Boteco Tijuca - Event"
                 />
             </div>
 
             <Link
                 href={"/videos"}
-                className="bg-zinc-900/40 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:text-amber-300 transition-all duration-300"
+                className="bg-zinc-900/10 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:text-amber-300 transition-all duration-300"
             >
-                Veja Mais
+                See more
             </Link>
-            <h4 className="text-xl font-bold  mb-4 mt-4">Sites</h4>
+            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6">
+                Websites
+            </h2>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 ">
                 <Project
                     image="acharge"
@@ -76,7 +80,7 @@ export default function Projects() {
                 <Project
                     image="codinginvest-institucional"
                     link="https://www.codinginvest.com.br/"
-                    project="Coding Invest Institucional"
+                    project="Coding Invest Institutional"
                 />
                 <Project
                     image="youtube-clone"
@@ -86,7 +90,7 @@ export default function Projects() {
                 <Project
                     image="hiragana"
                     link="https://tatsuosaka.github.io/hiragana/"
-                    project="Jogo Hiragana"
+                    project="Hiragana Game"
                 />
             </div>
         </div>

@@ -8,13 +8,13 @@ export default function Navbar() {
                     <NavbarButton linkName="Tatsuo Saka" link="/" />
                 </li>
                 <li>
-                    <NavbarButton linkName="Sobre" link="#sobre" />
+                    <NavbarButton linkName="About" link="#about" />
                 </li>
                 <li>
                     <NavbarButton linkName="Bio" link="#bio" />
                 </li>
                 <li>
-                    <NavbarButton linkName="Projetos" link="#projetos" />
+                    <NavbarButton linkName="Projects" link="#projects" />
                 </li>
             </ul>
         </div>
