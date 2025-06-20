@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { FaInstagram, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 import Projects from "./projects";
@@ -155,6 +155,14 @@ export default function Article() {
                     >
                         <FaInstagram />
                         Instagram
+                    </a>
+                    <a
+                        href="https://www.youtube.com/@Tatsuuo/"
+                        target="_blank"
+                        className="flex gap-2 items-center hover:text-red-400 duration-300"
+                    >
+                        <FaYoutube />
+                        YouTube
                     </a>
                 </div>
             </div>

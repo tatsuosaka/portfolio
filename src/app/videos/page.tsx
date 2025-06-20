@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import NavbarButton from "@/components/navbarbutton";
 import Video from "@/components/video";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Videos() {
@@ -23,10 +24,42 @@ export default function Videos() {
                 </ul>
             </div>
             <article className="flex flex-col gap-6 justify-between items-center lg:size-2/4 sm:size-2/3 size-10/12 mt-2">
-                <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2">
-                    Videos
-                </h2>
+                <div className="bg-zinc-700/10 p-4">
+                    <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40  w-full rounded flex justify-center p-2">
+                        Videos
+                    </h2>
+                    <p className="">
+                        These are some of the edited videos I’ve worked on for
+                        companies and restaurants. As you’ll notice, most of the
+                        content is focused on the food industry, that’s because
+                        I did freelance work for a company that specialized in
+                        restaurant marketing. Unfortunately, I can’t showcase
+                        all of the projects here, as some of the videos are
+                        under confidentiality or client restrictions.
+                    </p>
+                </div>
+
                 <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
+                    <Video
+                        link="https://www.instagram.com/reel/C6ZjUNbya61/"
+                        videosrc="/videos/p11.mp4"
+                        video="JK"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/C-GiGiASsdN/"
+                        videosrc="/videos/p12.mp4"
+                        video="Charge Podcast"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/C-vvSljy8__/"
+                        videosrc="/videos/p13.mp4"
+                        video="Ki Delicia - Promotion"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/C7rWt9WuEDa/"
+                        videosrc="/videos/p14.mp4"
+                        video="Kenko Festival - Promotion"
+                    />
                     <Video
                         link="https://www.instagram.com/p/DI9KxcDOf9L/"
                         videosrc="/videos/p1.mp4"
@@ -82,6 +115,39 @@ export default function Videos() {
                         videosrc="/videos/p10.mp4"
                         video="Capittão Espeto - Promotion"
                     />
+                    <Video
+                        link="https://www.instagram.com/reel/C5ygj3zu8Rc/"
+                        videosrc="/videos/p15.mp4"
+                        video="Ivo Tattoer"
+                    />
+                </div>
+
+                <div className="flex gap-4 items-center bg-zinc-700/10 h-fit w-fit rounded-2xl p-4 ">
+                    <Link
+                        href={"https://www.youtube.com/@Tatsuuo/"}
+                        target="_blank"
+                        className="flex justify-center flex-col items-center w-1/4 gap-2 bg-zinc-800 rounded-2xl p-4 hover:bg-zinc-700 transition-all"
+                    >
+                        <Image
+                            src={"/images/ytprofile.webp"}
+                            alt="Youtube Channel"
+                            width={200}
+                            height={200}
+                            className="rounded-full"
+                        ></Image>
+                        <p>Youtube Channel</p>
+                        <p className="font-bold">Tatsuuo</p>
+                    </Link>
+                    <p className="w-3/4">
+                        I run a <b>YouTube channel</b> as a hobby, where I
+                        create gaming content from start to finish. I record my
+                        gameplay sessions, edit all the footage, and add my own
+                        personal style with music, sound effects, and visual
+                        cuts to keep everything dynamic and fun to watch. It’s a
+                        creative space where I experiment with editing
+                        techniques, storytelling, all just for the love of
+                        gaming and content creation.
+                    </p>
                 </div>
                 <Link
                     href={"/"}
