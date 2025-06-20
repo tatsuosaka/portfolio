@@ -122,11 +122,11 @@ export default function Videos() {
                     />
                 </div>
 
-                <div className="flex gap-4 items-center bg-zinc-700/10 h-fit w-fit rounded-2xl p-4 ">
+                <div className="flex gap-4 items-center bg-zinc-700/10 h-fit w-fit rounded-2xl p-4 sm:flex-row flex-col">
                     <Link
                         href={"https://www.youtube.com/@Tatsuuo/"}
                         target="_blank"
-                        className="flex justify-center flex-col items-center w-1/4 gap-2 bg-zinc-800 rounded-2xl p-4 hover:bg-zinc-700 transition-all"
+                        className="flex justify-center flex-col items-center sm:w-1/4 w-full gap-2 bg-zinc-800 rounded-2xl p-4 hover:bg-zinc-700 transition-all"
                     >
                         <Image
                             src={"/images/ytprofile.webp"}
@@ -138,7 +138,7 @@ export default function Videos() {
                         <p>Youtube Channel</p>
                         <p className="font-bold">Tatsuuo</p>
                     </Link>
-                    <p className="w-3/4">
+                    <p className="sm:w-3/4 w-full">
                         I run a <b>YouTube channel</b> as a hobby, where I
                         create gaming content from start to finish. I record my
                         gameplay sessions, edit all the footage, and add my own
