@@ -107,6 +107,10 @@ export default function Article() {
                             Graduated in Systems Analysis and Development
                         </a>
                     </div>
+                    <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
+                        <b className="text-nowrap mr-8">2025</b>
+                        <p>Social Media Analyst – Portal ON</p>
+                    </div>
                 </div>
             </div>
 
