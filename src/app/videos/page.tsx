@@ -25,7 +25,7 @@ export default function Videos() {
             </div>
             <article className="flex flex-col gap-6 justify-between items-center lg:size-2/4 sm:size-2/3 size-10/12 mt-2">
                 <div className="bg-zinc-700/10 p-4">
-                    <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40  w-full rounded flex justify-center p-2">
+                    <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40  w-full rounded flex justify-center p-2 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
                         Videos
                     </h2>
                     <p className="">
@@ -126,7 +126,7 @@ export default function Videos() {
                     <Link
                         href={"https://www.youtube.com/@Tatsuuo/"}
                         target="_blank"
-                        className="flex justify-center flex-col items-center sm:w-1/4 w-full gap-2 bg-zinc-800 rounded-2xl p-4 hover:bg-zinc-700 transition-all"
+                        className="flex justify-center flex-col items-center sm:w-1/4 w-full gap-2 bg-zinc-800 rounded-2xl p-4 hover:bg-zinc-700 transition-all "
                     >
                         <Image
                             src={"/images/ytprofile.webp"}
@@ -135,8 +135,12 @@ export default function Videos() {
                             height={200}
                             className="rounded-full"
                         ></Image>
-                        <p>Youtube Channel</p>
-                        <p className="font-bold">Tatsuuo</p>
+                        <p className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Youtube Channel
+                        </p>
+                        <p className="font-bold hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Tatsuuo
+                        </p>
                     </Link>
                     <p className="sm:w-3/4 w-full">
                         I run a <b>YouTube channel</b> as a hobby, where I
@@ -151,7 +155,7 @@ export default function Videos() {
                 </div>
                 <Link
                     href={"/"}
-                    className="bg-zinc-900/40 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:text-amber-300 transition-all duration-300"
+                    className="bg-zinc-900/40 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all duration-300"
                 >
                     Back
                 </Link>

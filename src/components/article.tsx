@@ -26,23 +26,47 @@ export default function Article() {
     return (
         <article className="flex flex-col gap-6 justify-between items-center lg:size-2/4 sm:size-2/3 size-10/12 mt-2">
             <div className="bg-zinc-900/40 p-4 rounded text-center w-full">
-                <p>Hello! I'm a video editor and web developer! 😁🎬</p>
+                <p>Hello! I'm a designer, video editor and web developer! 🎬</p>
             </div>
-            <div className="flex gap-4 justify-between items-center w-full">
-                <div>
-                    <h2 className="text-4xl">Matheus Tatsuo Saka</h2>
-                    <p>Video Editor / Web Developer</p>
+            <div className="flex gap-4 lg:flex-row flex-col justify-between items-center w-full">
+                <div className="w-full">
+                    <h2 className="text-4xl hover:cursor-default transition-all">
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Matheus
+                        </span>{" "}
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Tatsuo
+                        </span>{" "}
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Saka
+                        </span>
+                    </h2>
+                    <p>
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Video Editor
+                        </span>{" "}
+                        /{" "}
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Web Developer
+                        </span>{" "}
+                        /{" "}
+                        <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                            Designer
+                        </span>
+                    </p>
                 </div>
                 <Image
-                    className="rounded-full border-2 select-none border-white"
+                    className="w-full select-none rounded-md border-white object-cover sm:h-96 h-72 transition-all"
                     src={"/images/perfil.webp"}
                     alt="profile"
-                    width={140}
-                    height={140}
+                    width={1000}
+                    height={1000}
                 />
             </div>
             <div id="about">
-                <h2 className="text-2xl font-bold underline mb-4">About</h2>
+                <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                    About
+                </h2>
                 <p className="mb-4">
                     Hi! I'm Matheus Tatsuo Saka — a passionate video editor with
                     a sharp eye for detail and storytelling. I specialize in
@@ -64,13 +88,15 @@ export default function Article() {
                         "https://x.com/messages/compose?recipient_id=1725995255055388672"
                     }
                     target="_blank"
-                    className="underline hover:text-yellow-400"
+                    className="underline hover:uppercase hover:font-bold hover:text-red-500 transition-all"
                 >
                     Let’s bring your content to life
                 </Link>
             </div>
             <div className="w-full" id="bio">
-                <h2 className="text-2xl font-bold underline mb-4">Bio</h2>
+                <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                    Bio
+                </h2>
                 <div className="flex flex-col gap-2">
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="mr-24">1998</b>
@@ -81,7 +107,7 @@ export default function Article() {
                         <a
                             href="https://drive.google.com/file/d/1vaX-bnOvtwC1VM0RiJQxs5pvSjOEMmbC/view?usp=sharing"
                             target="_blank"
-                            className="hover:cursor-pointer underline decoration-white/20 hover:text-yellow-400 transition-all duration-300"
+                            className="hover:cursor-pointer underline decoration-white/20 hover:text-red-500 transition-all duration-300"
                         >
                             Studying Systems Analysis and Development - União
                             das Américas Descomplica
@@ -102,7 +128,7 @@ export default function Article() {
                         <a
                             href="https://drive.google.com/file/d/1vaX-bnOvtwC1VM0RiJQxs5pvSjOEMmbC/view?usp=sharing"
                             target="_blank"
-                            className="hover:cursor-pointer underline decoration-white/20 hover:text-yellow-400 transition-all duration-300"
+                            className="hover:cursor-pointer underline decoration-white/20 hover:text-red-500 transition-all duration-300"
                         >
                             Graduated in Systems Analysis and Development
                         </a>
@@ -115,7 +141,7 @@ export default function Article() {
             </div>
 
             <div className="w-full transition-all">
-                <h2 className="text-2xl font-bold underline mb-4">
+                <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
                     Social Media
                 </h2>
                 <div className="flex flex-col gap-2 ">
@@ -130,7 +156,7 @@ export default function Article() {
                     <a
                         href="https://github.com/tatsuosaka"
                         target="_blank"
-                        className="flex gap-2 items-center hover:text-cyan-400 duration-300"
+                        className="flex gap-2 items-center hover:text-cyan-400 duration-300 "
                     >
                         <FaGithub />
                         GitHub

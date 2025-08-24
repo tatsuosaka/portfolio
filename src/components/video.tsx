@@ -16,7 +16,7 @@ export default function Video(props: {
                 <source src={props.videosrc} />
             </video>
             <a
-                className="font-bold hover:text-amber-300 transition-all duration-300"
+                className="font-bold hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all duration-300"
                 target="_blank"
                 href={props.link}
             >

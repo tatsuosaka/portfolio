@@ -3,7 +3,10 @@ export default function NavbarButton(props: {
     link?: string;
 }) {
     return (
-        <a className="font-bold" href={props.link}>
+        <a
+            className="font-bold hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all"
+            href={props.link}
+        >
             {props.linkName}
         </a>
     );

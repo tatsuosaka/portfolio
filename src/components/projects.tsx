@@ -5,8 +5,10 @@ import Video from "./video";
 export default function Projects() {
     return (
         <div>
-            <h2 className="text-2xl font-bold underline mb-4">Projects</h2>
-            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2">
+            <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                Projects
+            </h2>
+            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
                 Videos
             </h2>
             <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
@@ -54,11 +56,11 @@ export default function Projects() {
 
             <Link
                 href={"/videos"}
-                className="bg-zinc-900/10 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:text-amber-300 transition-all duration-300"
+                className="bg-zinc-900/10 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all duration-300"
             >
                 See more
             </Link>
-            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6">
+            <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
                 Websites
             </h2>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 ">

@@ -9,11 +9,11 @@ export default function Project(props: {
                 href={props.link}
                 target="_blank"
                 style={{ backgroundImage: `url(/images/${props.image}.webp)` }}
-                className={`rounded-lg bg-cover block aspect-video mb-2 hover:opacity-70 bg-center bg-amber-300 transition-all duration-200`}
+                className={`rounded-lg bg-cover block aspect-video mb-2 hover:opacity-70 bg-center bg-red-500 transition-all duration-200`}
             ></a>
             <a
                 href={props.link}
-                className="font-bold hover:text-amber-300 transition-all duration-300"
+                className="font-bold hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all duration-300"
                 target="_blank"
             >
                 {props.project}
