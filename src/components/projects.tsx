@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Project from "./project";
 import Video from "./video";
+import Design from "./design";
 
 export default function Projects() {
     return (
@@ -14,8 +15,8 @@ export default function Projects() {
             <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
                 <Video
                     link="https://www.instagram.com/p/DI9KxcDOf9L/"
-                    videosrc="/videos/p1.mp4"
-                    video="Boteco Tijuca - Promotion"
+                    videosrc="/videos/p18.mp4"
+                    video="RR Parafusos"
                 />
                 <Video
                     link="https://www.instagram.com/p/DCpDq13OWED/"
@@ -94,6 +95,41 @@ export default function Projects() {
                     link="https://tatsuosaka.github.io/hiragana/"
                     project="Hiragana Game"
                 />
+            </div>
+            <div>
+                <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
+                    Design
+                </h2>
+                <div className="grid grid-cols-4 gap-2">
+                    <Design src="1"></Design>
+                    <Design src="2"></Design>
+                    <Design src="3"></Design>
+                    <Design src="4"></Design>
+                    <Design src="5"></Design>
+                    <Design src="6"></Design>
+                    <Design src="7"></Design>
+                    <Design src="8"></Design>
+                    <Design src="9"></Design>
+                    <Design src="10"></Design>
+                    <Design src="11"></Design>
+                    <Design src="12"></Design>
+                    <Design src="13"></Design>
+                    <Design src="14"></Design>
+                    <Design src="15"></Design>
+                    <Design src="16"></Design>
+                    <Design src="17"></Design>
+                    <Design src="18"></Design>
+                    <Design src="19"></Design>
+                    <Design src="20"></Design>
+                    <Design src="21"></Design>
+                    <Design src="22"></Design>
+                    <Design src="23"></Design>
+                    <Design src="24"></Design>
+                    <Design src="25"></Design>
+                    <Design src="26"></Design>
+                    <Design src="27"></Design>
+                    <Design src="28"></Design>
+                </div>
             </div>
         </div>
     );

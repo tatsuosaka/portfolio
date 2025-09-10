@@ -120,6 +120,51 @@ export default function Videos() {
                         videosrc="/videos/p15.mp4"
                         video="Ivo Tattoer"
                     />
+                    <Video
+                        link="https://www.instagram.com/reel/DNWOG6NxnE6/"
+                        videosrc="/videos/p16.mp4"
+                        video="Talita Correa Salão"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DNQevITt5gz/"
+                        videosrc="/videos/p17.mp4"
+                        video="Brazuka Sabor"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DNDvs2zuWOT/"
+                        videosrc="/videos/p18.mp4"
+                        video="RR Parafusos"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DMp3LNAu5-H/"
+                        videosrc="/videos/p20.mp4"
+                        video="TKN Conveniencia"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DMirPgPRHre/"
+                        videosrc="/videos/p21.mp4"
+                        video="Adega Forner"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DMc7pkQui6u/"
+                        videosrc="/videos/p22.mp4"
+                        video="Speciale"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DMc6FUFuGRU/"
+                        videosrc="/videos/p23.mp4"
+                        video="RR Parafusos"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DOGqrS5jnKx/"
+                        videosrc="/videos/p24.mp4"
+                        video="Flash Food"
+                    />
+                    <Video
+                        link="https://www.instagram.com/reel/DNYIn76tCu3/"
+                        videosrc="/videos/p25.mp4"
+                        video="Auto Posto TKN"
+                    />
                 </div>
 
                 <div className="flex gap-4 items-center bg-zinc-700/10 h-fit w-fit rounded-2xl p-4 sm:flex-row flex-col">
