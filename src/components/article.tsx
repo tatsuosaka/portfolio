@@ -26,7 +26,10 @@ export default function Article() {
     return (
         <article className="flex flex-col gap-6 justify-between items-center lg:size-2/4 sm:size-2/3 size-10/12 mt-2">
             <div className="bg-zinc-900/40 p-4 rounded text-center w-full">
-                <p>Hello! I'm a designer, video editor and web developer! 🎬</p>
+                <p>
+                    Olá! Eu sou designer, editor de vídeo e desenvolvedor web!
+                    🎬
+                </p>
             </div>
             <div className="flex gap-4 lg:flex-row flex-col justify-between items-center w-full">
                 <div className="w-full">
@@ -43,11 +46,11 @@ export default function Article() {
                     </h2>
                     <p>
                         <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                            Video Editor
+                            Editor de Vídeo
                         </span>{" "}
                         /{" "}
                         <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                            Web Developer
+                            Desenvolvedor Web
                         </span>{" "}
                         /{" "}
                         <span className="hover:uppercase hover:font-bold hover:text-red-500 transition-all">
@@ -65,23 +68,20 @@ export default function Article() {
             </div>
             <div id="about">
                 <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                    About
+                    Sobre
                 </h2>
                 <p className="mb-4">
-                    Hi! I'm Matheus Tatsuo Saka — a passionate video editor with
-                    a sharp eye for detail and storytelling. I specialize in
-                    editing content for YouTube, TikTok, and Instagram, mainly
-                    for Brazilian creators, and my go-to tool is DaVinci
-                    Resolve. Whether it's fast-paced cuts, smooth transitions,
-                    or clean color grading, I focus on delivering high-quality
-                    edits that truly connect with the audience.
+                    Olá! Eu sou o Matheus Tatsuo Saka um editor de vídeo
+                    especialista em editar conteúdo para YouTube, TikTok e
+                    Instagram, principalmente para criadores brasileiros,
+                    utilizando o DaVinci Resolve.
                 </p>
                 <p className="mb-4">
-                    Alongside video editing, I bring strong experience with
-                    Photoshop for thumbnail and visual design, helping creators
-                    boost engagement and stand out. I also have a background in
-                    web development (HTML, CSS, JavaScript, React, etc.), which
-                    adds a creative tech-savvy edge to my workflow.
+                    Além da edição de vídeo, também tenho experiência com o
+                    Photoshop para a criação artes visuais, também tenho
+                    formação em desenvolvimento web (HTML, CSS, JavaScript,
+                    React, Next.js, etc.), o que adiciona uma vantagem criativa
+                    e tecnológica ao meu fluxo de trabalho.
                 </p>
                 <Link
                     href={
@@ -90,7 +90,7 @@ export default function Article() {
                     target="_blank"
                     className="underline hover:uppercase hover:font-bold hover:text-red-500 transition-all"
                 >
-                    Let’s bring your content to life
+                    Vamos dar vida a sua ideia
                 </Link>
             </div>
             <div className="w-full" id="bio">
@@ -100,7 +100,7 @@ export default function Article() {
                 <div className="flex flex-col gap-2">
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="mr-24">1998</b>
-                        <p>Born - São Paulo</p>
+                        <p>Nascido - São Paulo</p>
                     </div>
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="mr-24">2022</b>
@@ -109,19 +109,22 @@ export default function Article() {
                             target="_blank"
                             className="hover:cursor-pointer underline decoration-white/20 hover:text-red-500 transition-all duration-300"
                         >
-                            Studying Systems Analysis and Development - União
-                            das Américas Descomplica
+                            Estudando Análise e Desenvolvimento de Sistemas -
+                            União das Américas Descomplica
                         </a>
                     </div>
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="text-nowrap mr-8">2022 - 2023</b>
                         <p>
-                            Web Application Development Intern - Coding Invest
+                            Estagiário em Desenvolvimento de Aplicações Web -
+                            Coding Invest
                         </p>
                     </div>
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="text-nowrap mr-8">2023 - 2025</b>
-                        <p>Video Editor – Charge Marketing for Restaurants</p>
+                        <p>
+                            Editor de Vídeo – Charge Marketing for Restaurants
+                        </p>
                     </div>
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="mr-24">2025</b>
@@ -130,19 +133,19 @@ export default function Article() {
                             target="_blank"
                             className="hover:cursor-pointer underline decoration-white/20 hover:text-red-500 transition-all duration-300"
                         >
-                            Graduated in Systems Analysis and Development
+                            Graduado em Análise e Desenvolvimento de Sistemas
                         </a>
                     </div>
                     <div className="flex sm:flex-row flex-col gap-2 justify-between bg-zinc-900/40 rounded p-2">
                         <b className="text-nowrap mr-8">2025</b>
-                        <p>Social Media Analyst – Portal ON</p>
+                        <p>Analista de Mídias Sociais – Portal ON</p>
                     </div>
                 </div>
             </div>
 
             <div className="w-full transition-all">
                 <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                    Social Media
+                    Redes Sociais
                 </h2>
                 <div className="flex flex-col gap-2 ">
                     <a

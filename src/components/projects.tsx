@@ -7,10 +7,10 @@ export default function Projects() {
     return (
         <div>
             <h2 className="text-2xl font-bold underline mb-4 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                Projects
+                Projetos
             </h2>
             <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                Videos
+                Vídeos
             </h2>
             <div className="grid sm:grid-cols-4 justify-items-center grid-cols-2 gap-4 mb-4">
                 <Video
@@ -59,10 +59,10 @@ export default function Projects() {
                 href={"/videos"}
                 className="bg-zinc-900/10 hover:bg-zinc-900/50 p-4 rounded flex justify-center underline w-full text-center hover:uppercase hover:font-bold hover:text-red-500 transition-all transition-all duration-300"
             >
-                See more
+                Veja Mais
             </Link>
             <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                Websites
+                Sites
             </h2>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 ">
                 <Project
@@ -83,24 +83,24 @@ export default function Projects() {
                 <Project
                     image="codinginvest-institucional"
                     link="https://www.codinginvest.com.br/"
-                    project="Coding Invest Institutional"
+                    project="Coding Invest Institucional"
                 />
                 <Project
                     image="youtube-clone"
                     link="https://youtube-clone-beta-orpin.vercel.app/"
-                    project="Youtube Clone"
+                    project="Clone YouTube"
                 />
                 <Project
                     image="hiragana"
                     link="https://tatsuosaka.github.io/hiragana/"
-                    project="Hiragana Game"
+                    project="Hiragana Jogo"
                 />
             </div>
             <div>
                 <h2 className="text-2xl font-bold mb-4 bg-zinc-900/40 w-full rounded flex justify-center p-2 mt-6 hover:uppercase hover:font-bold hover:text-red-500 transition-all">
-                    Design
+                    Artes
                 </h2>
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
                     <Design src="1"></Design>
                     <Design src="2"></Design>
                     <Design src="3"></Design>
